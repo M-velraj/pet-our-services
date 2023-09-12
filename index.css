@@ -1,0 +1,149 @@
+/* global slector  */
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+/* body  */
+body{
+    width: 100%;
+    height: 100%;
+}
+/* overall background  */
+.bg{
+    background-image: url(./istockphoto-877065146-170667a.jpg);
+    width: 100vw;
+    height: 100vh;
+    background-size:cover;
+}
+/* OUR SERVICES heading  */
+h1{
+    color:white;
+    font-size: 50px;
+    text-shadow: 5px 5px 6px rgb(8, 8, 8);
+    padding-top: 20px;
+    letter-spacing: 5px;
+    text-align: center;
+}
+/* container background  */
+.cbg{
+    display: flex;
+    text-align: center;
+    width: 100%;
+    height: 60%;   
+    margin-top: 100px; 
+    /* margin-bottom: 50px; */
+    /* background-color: blue; */
+}
+/* all three container  */
+.con{
+    background-color: rgba(0, 0, 0, 0.514);
+    box-shadow: 10px 10px 7px black;
+    color: white;
+    width: 50%;
+    margin: 20px;
+    position: relative;
+    border-radius: 10px;
+}
+/* all icons  */
+i{
+    position: absolute;
+    font-size: 100px;
+    left: 130px;
+    top:-80px ;
+    padding: 20px;
+    border-radius: 50%;
+    background:linear-gradient(red,blue);
+}
+/* all three sub heading   */
+.h{
+    height: 40%;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* paragraph  */
+.p{
+    margin:  10px;
+}
+/* *********************media quires************************ */
+/* mobile phone  */
+@media only screen and (min-width:320px) and (max-width:599px){
+    /* overall background */
+    .bg{
+       height: auto;
+    }
+    /* container background  */
+    .cbg{
+        flex-wrap: wrap;
+    }
+    /* all container  */
+    .con{
+        width: 100%;
+        height: fit-content;
+        margin-top: 100px;
+    }
+    /* icons  */
+    i{
+        left: 27%;
+    }
+    /* sub heading  */
+    .h{
+        padding-top: 20px;
+    }
+    /* para  */
+    p{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}
+/* for tablets */
+@media only screen and (min-width:600px) and (max-width:1000px){
+    /* overall background  */
+     .bg{
+        height: auto;
+        width: 100%;
+    }
+    /* container background */
+    .cbg{
+        flex-wrap: wrap;
+    }
+    /* container  */
+    .con{
+        width: 100%;
+        height: 290px;
+        margin-top: 100px;
+    }
+    /* icons  */
+    i{
+        left: 40%;
+        font-size: 120px;
+    }
+} 
+/* for normal laptop  */
+@media only screen and (min-width:1000px) and (max-width:1440px){
+    /* icons  */
+    i{
+        left:30%;
+    }
+}
+/* for big screen laptop  */
+@media only screen and (min-width:1441px) and (max-width:3000px){
+    /* container background  */
+    .cbg{
+        width: auto;
+    }
+    /* icons  */
+    i{
+        font-size: 150px;
+        left:40%;
+    }
+}
+
+
+    
+
+
+
